@@ -9,7 +9,7 @@ const MyMain = styled(Box)(({theme}) => ({
   display: "flex",
   justifyContent: "center",
   height: "max-content",
-  backgroundColor: "whitesmoke",
+  backgroundColor: "#ebebeb",
 }));
 
 function DefaultLayoutPage() {

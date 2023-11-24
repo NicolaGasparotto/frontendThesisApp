@@ -23,7 +23,7 @@ const CheckAuthenticatedRoutes = () => {
     return (
         <Routes>
             <Route element={<DefaultLayoutPage/>}>
-                <Route path={routes.landingPage} element={<ProfessorApplicantsPage />}/>
+                <Route path={routes.landingPage} element={<LandingPage />}/>
                 {!loggedIn && <Route path={routes.login} element={<LoginPage/>}/>}
                 {loggedIn && (
                     <>
