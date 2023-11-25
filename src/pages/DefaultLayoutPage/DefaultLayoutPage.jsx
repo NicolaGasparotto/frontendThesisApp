@@ -6,9 +6,8 @@ import React from "react";
 import {useUserContext} from "../../contexts/index.js";
 
 const MyMain = styled(Box)(({theme}) => ({
-  display: "flex",
-  justifyContent: "center",
-  height: "max-content",
+  display: "flex", flexDirection: "column", minHeight: "100vh",
+  alignItems: "center",
   backgroundColor: "#ebebeb",
 }));
 
